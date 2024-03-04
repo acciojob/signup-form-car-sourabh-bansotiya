@@ -8,46 +8,55 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form>
-	<label>Name
-    <input id="name" type="text" placeholder="e.g : Sourabh Bansotiya" required>
-   </label>
-		
-		<label>Email
-    <input id="email" type="email" placeholder="email" required >
-</label>
-		
-			<label>Gender
-    <input id="gender_m, gender_f" type="radio" value="Male" name="gender" required>Male
-				<input id="gender_m, gender_f" type="radio" value="Female" name="gender" required>Female
-	</label>
-		
-				<label>Age
-    <input id="age" type="number" placeholder="Age" required>
+	<!-- ... (other HTML code) -->
+
+<form>
+    <label for="name">Name
+        <input id="name" type="text" placeholder="e.g : Sourabh Bansotiya" required>
     </label>
-					<label>Password
-    <input id="password" type="password" placeholder="Password" required>
+
+    <label for="email">Email
+        <input id="email" type="email" placeholder="email" required>
     </label>
-		
-						<label>DOB
-    <input id="dob" type="date" required>
-							</label>
-		
-	<label>I agree to the TOS
-    <input id="tos" type="checkbox" value="agree" required>
-	</label>
-		<label>Car Brand
-	<select name="cars" id="cars" placeholder="--Please choose an option--" required>
-    <option value="volvo" >Volvo</option>
-    <option value="saab">Saab</option>
-    <option value="opel">Opel</option>
-    <option value="audi">Audi</option>
-  </select>
-		</label>
-	<label>Phone Number
-    <input id="tel" type="tel" placeholder="XXX-XXX-XXXX">
-		</label>
-    </form>
+
+    <label>Gender
+        <input id="gender_m" type="radio" value="Male" name="gender" required>Male
+        <input id="gender_f" type="radio" value="Female" name="gender" required>Female
+    </label>
+
+    <label for="age">Age
+        <input id="age" type="number" placeholder="Age" required>
+    </label>
+
+    <label for="password">Password
+        <input id="password" type="password" placeholder="Password" required>
+    </label>
+
+    <label for="dob">DOB
+        <input id="dob" type="date" required>
+    </label>
+
+    <label for="tos">I agree to the TOS
+        <input id="tos" type="checkbox" value="agree" required>
+    </label>
+
+    <label for="cars">Car Brand
+        <select name="cars" id="cars" placeholder="--Please choose an option--" required>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+        </select>
+    </label>
+
+    <label for="tel">Phone Number
+        <input id="tel" type="tel" placeholder="XXX-XXX-XXXX">
+    </label>
+
+</form>
+
+<!-- ... (other HTML code) -->
+
 		<script type="text/javascript" src="./script.js">
 </script>
 
